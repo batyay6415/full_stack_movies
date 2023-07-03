@@ -1,0 +1,6 @@
+.List table, .List td {
+	border: 5px solid black;
+    color: black;
+    padding: 2px;
+    border-collapse: collapse;
+}
