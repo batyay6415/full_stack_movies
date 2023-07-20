@@ -27,8 +27,6 @@ async function getAllMovieByTheater(id: number): Promise<MovieModel[]>{
 
     if(!id) throw new ResourceNotFoundError(id);
 
-    // const movie = movies[0];
-
     return movies;
 }
 

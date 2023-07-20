@@ -14,3 +14,8 @@ server.use(routeNotFound);
 server.use(catchAll);
 
 server.listen(appConfig.port, () => console.log("Listening on http://localhost:" + appConfig.port));
+
+// For testing it in any related test.ts file
+export default {
+    server
+};
